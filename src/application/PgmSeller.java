@@ -9,7 +9,7 @@ import model.dao.SellerDao;
 import model.entities.Department;
 import model.entities.Seller;
 
-public class Program {
+public class PgmSeller {
 
 	public static void main(String[] args) {
 		
@@ -55,6 +55,5 @@ public class Program {
 		System.out.println("Delete completed!");
 		
 		sc.close();
-		
 	}
 }
